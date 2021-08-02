@@ -1,0 +1,30 @@
+{
+    "name": "wnml-support",
+    "displayName": "Web Novel Markup Language (WNML) Support",
+    "description": "Extension support for .wnml files",
+    "version": "1.0.0",
+	"publisher": "rekorn",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/urun4m0r1/wnml-support.git"
+    },
+    "engines": {
+        "vscode": "^1.58.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "wnml",
+            "aliases": ["WNML", "wnml"],
+            "extensions": [".wnml"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "wnml",
+            "scopeName": "source.wnml",
+            "path": "./syntaxes/wnml.tmLanguage.json"
+        }]
+    }
+}
