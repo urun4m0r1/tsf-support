@@ -1,6 +1,7 @@
 {
 	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
 	"name": "WebNovelMarkupLanguage",
+	"scopeName": "source.wnml",
 	"patterns": [
 		{
 			"include": "#keywords"
@@ -11,22 +12,96 @@
 	],
 	"repository": {
 		"keywords": {
-			"patterns": [{
-				"name": "keyword.control.wnml",
-				"match": "\\b(if|while|for|return)\\b"
-			}]
-		},
-		"strings": {
-			"name": "string.quoted.double.wnml",
-			"begin": "\"",
-			"end": "\"",
 			"patterns": [
 				{
-					"name": "constant.character.escape.wnml",
-					"match": "\\\\."
+					"name": "invalid.illegal.wnml",
+					"match": "것"
+				},
+				{
+					"name": "invalid.illegal.wnml",
+					"match": "의"
+				},
+				{
+					"name": "invalid.illegal.wnml",
+					"match": "적"
+				},
+				{
+					"name": "invalid.illegal.wnml",
+					"match": "들"
+				},
+				{
+					"name": "keyword.control.wnml",
+					"match": "PC방"
+				},
+				{
+					"name": "keyword.control.wnml",
+					"match": "몬헌"
+				}
+			]
+		},
+		"strings": {
+			"patterns": [
+				{
+					"name": "string.quoted.single.wnml",
+					"begin": "'",
+					"end": "'"
+				},
+				{
+					"name": "string.quoted.double.wnml",
+					"begin": "\"",
+					"end": "\""
+				},
+				{
+					"name": "string.quoted.single.wnml",
+					"begin": "「",
+					"end": "」"
+				},
+				{
+					"name": "string.quoted.double.wnml",
+					"begin": "『",
+					"end": "』"
+				},
+				{
+					"name": "string.quoted.single.wnml",
+					"begin": "〈",
+					"end": "〉"
+				},
+				{
+					"name": "string.quoted.double.wnml",
+					"begin": "《",
+					"end": "》"
+				},
+				{
+					"name": "string.quoted.single.wnml",
+					"begin": "〖",
+					"end": "〗"
+				},
+				{
+					"name": "string.quoted.double.wnml",
+					"begin": "【",
+					"end": "】"
+				},
+				{
+					"name": "string.quoted.single.wnml",
+					"begin": "\\(",
+					"end": "\\)"
+				},
+				{
+					"name": "string.quoted.double.wnml",
+					"begin": "\\[",
+					"end": "\\]"
+				},
+				{
+					"name": "string.quoted.single.wnml",
+					"begin": "<",
+					"end": ">"
+				},
+				{
+					"name": "string.quoted.double.wnml",
+					"begin": "{",
+					"end": "}"
 				}
 			]
 		}
-	},
-	"scopeName": "source.wnml"
+	}
 }
