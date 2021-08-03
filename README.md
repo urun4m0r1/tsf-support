@@ -1,6 +1,10 @@
 #  텍스트 스크립트 포멧 (TSF) 지원 확장
 
-.tsf 파일 확장자를 위한 확장 프로그램입니다.
+.tsf 파일 확장자를 위한 VSCode 확장 프로그램입니다.
+
+## 설치
+
+[VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=rekorn.tsf-support)
 
 ## 기능
 
