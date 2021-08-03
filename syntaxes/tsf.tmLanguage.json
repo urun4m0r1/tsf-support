@@ -1,0 +1,137 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "TextScriptFormat",
+	"scopeName": "source.tsf",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [
+                {
+                    "name": "invalid.illegal.tsf",
+                    "match": "것"
+                },
+                {
+                    "name": "invalid.illegal.tsf",
+                    "match": "의"
+                },
+                {
+                    "name": "invalid.illegal.tsf",
+                    "match": "적"
+                },
+                {
+                    "name": "invalid.illegal.tsf",
+                    "match": "들"
+                },
+                {
+                    "name": "keyword.control.tsf",
+                    "match": "-|_|=|\\+|~|―|–"
+                },
+                {
+                    "name": "constant.language.tsf",
+                    "match": "[0-9]"
+                }
+            ]
+		},
+		"strings": {
+			"patterns": [
+                {
+                    "name": "string.quoted.single.tsf",
+                    "begin": "'",
+                    "end": "'",
+                    "patterns": [
+                        { "include": "#keywords" },
+                        { "include": "#strings" }
+                    ]
+                },
+                {
+                    "name": "string.quoted.double.tsf",
+                    "begin": "\"",
+                    "end": "\"",
+                    "patterns": [
+                        { "include": "#keywords" },
+                        { "include": "#strings" }
+                    ]
+                },
+                {
+                    "name": "string.quoted.single.tsf",
+                    "begin": "「",
+                    "end": "」",
+                    "patterns": [
+                        { "include": "#keywords" },
+                        { "include": "#strings" }
+                    ]
+                },
+                {
+                    "name": "string.quoted.double.tsf",
+                    "begin": "『",
+                    "end": "』",
+                    "patterns": [
+                        { "include": "#keywords" },
+                        { "include": "#strings" }
+                    ]
+                },
+                {
+                    "name": "string.quoted.single.tsf",
+                    "begin": "〈",
+                    "end": "〉",
+                    "patterns": [
+                        { "include": "#keywords" },
+                        { "include": "#strings" }
+                    ]
+                },
+                {
+                    "name": "string.quoted.double.tsf",
+                    "begin": "《",
+                    "end": "》",
+                    "patterns": [
+                        { "include": "#keywords" },
+                        { "include": "#strings" }
+                    ]
+                },
+                {
+                    "name": "support.type.tsf",
+                    "begin": "\\(",
+                    "end": "\\)",
+                    "patterns": [
+                        { "include": "#keywords" },
+                        { "include": "#strings" }
+                    ]
+                },
+                {
+                    "name": "support.class.tsf",
+                    "begin": "{",
+                    "end": "}",
+                    "patterns": [
+                        { "include": "#keywords" },
+                        { "include": "#strings" }
+                    ]
+                },
+                {
+                    "name": "support.function.tsf",
+                    "begin": "\\[",
+                    "end": "\\]",
+                    "patterns": [
+                        { "include": "#keywords" },
+                        { "include": "#strings" }
+                    ]
+                },
+                {
+                    "name": "support.variable.tsf",
+                    "begin": "<",
+                    "end": ">",
+                    "patterns": [
+                        { "include": "#keywords" },
+                        { "include": "#strings" }
+                    ]
+                }
+            ]
+		}
+	}
+}

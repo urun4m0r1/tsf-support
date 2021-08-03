@@ -1,9 +1,5 @@
-# Change Log
+# 업데이트 이력
 
-All notable changes to the "text-script-format-support" extension will be documented in this file.
+## 1.0.0
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
-- Initial release
+- 최초 버전 공개

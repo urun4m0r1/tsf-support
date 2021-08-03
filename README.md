@@ -1,38 +1,33 @@
-# Web Novel Markup Language (WNML) Support README
+#  텍스트 스크립트 포멧 (TSF) 지원 확장
 
-Extension support for .wnml files.
+.tsf 파일 확장자를 위한 확장 프로그램입니다.
 
-## Features
+## 기능
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+웹 소설 작성 능률 향상을 위해 특정 문장 성분을 강조 표시합니다. 다음 확장과 같이 사용하면 더욱 유용합니다.
 
-For example if there is an image subfolder under your extension project workspace:
+- [WordCounter - Etienne Faisant](https://marketplace.visualstudio.com/items?itemName=kirozen.wordcounter)
 
-\!\[feature X\]\(images/feature-x.png\)
+- [Korean Spell Checker VS Code - Yunseok](https://marketplace.visualstudio.com/items?itemName=Yunseok.korean-spell-checker-vs-code)
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+- [GitLens — Git supercharged - Eric Amodio](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 
-## Requirements
+## 적용법
 
-Nothing.
+해당 확장 설치 후 `Cmd+Shift+P` → `Change Langauge Mode` 에서 TSF 선택 혹은 파일 확장자를 `.tsf`로 저장.
 
-## Extension Settings
+## 사용 예시
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+![사용 예시](images/sample.png)
 
-For example:
+## 요구사항
 
-This extension contributes the following settings:
+없음
 
--   `myExtension.enable`: enable/disable this extension
--   `myExtension.thing`: set to `blah` to do something
+## 확장 옵션
 
-## Known Issues
+없음
 
-Nothing yet.
+## 얼려진 문제점
 
-## Release Notes
-
-### 1.0.0
-
-Initial release of TextScriptFormat.
+없음.
