@@ -14,7 +14,13 @@
 
 ## 적용법
 
-해당 확장 설치 후 `Cmd+Shift+P` → `Change Language Mode` 에서 TSF 선택 혹은 파일 확장자를 `.tsf`, `.tsf.txt`, `.tsf.md`로 저장.
+해당 확장 설치 후 `Cmd+Shift+P` → `Change Language Mode` 에서 TSF 선택 혹은 파일 확장자를 지원하는 확장자로 저장.
+
+### 지원 확장자
+
+- .tsf
+- .tsf.txt
+- .tsf.md
 
 ## 사용 예시
 
