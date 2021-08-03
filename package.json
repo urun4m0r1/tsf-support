@@ -3,7 +3,8 @@
     "displayName": "Korean Novel Text Script Format",
     "description": "VSCode를 활용한 한국어 소설 작성 지원 확장.",
     "version": "1.0.0",
-    "publisher": "Rekorn",
+    "publisher": "rekorn",
+    "icon": "https://github.com/urun4m0r1/tsf-support/raw/master/images/icon.png",
     "repository": {
         "type": "git",
         "url": "git://github.com/urun4m0r1/tsf-support.git"

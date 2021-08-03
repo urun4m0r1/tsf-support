@@ -14,11 +14,11 @@
 
 ## 적용법
 
-해당 확장 설치 후 `Cmd+Shift+P` → `Change Langauge Mode` 에서 TSF 선택 혹은 파일 확장자를 `.tsf`로 저장.
+해당 확장 설치 후 `Cmd+Shift+P` → `Change Language Mode` 에서 TSF 선택 혹은 파일 확장자를 `.tsf`로 저장.
 
 ## 사용 예시
 
-![사용 예시](images/sample.png)
+![사용 예시](https://github.com/urun4m0r1/tsf-support/raw/master/images/sample.png)
 
 ## 요구사항
 
