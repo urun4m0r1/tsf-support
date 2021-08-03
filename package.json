@@ -2,7 +2,7 @@
     "name": "tsf-support",
     "displayName": "Korean Novel Text Script Format",
     "description": "VSCode를 활용한 한국어 소설 작성 지원 확장.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "rekorn",
     "icon": "icon.png",
     "repository": {
@@ -25,7 +25,8 @@
                 ],
                 "extensions": [
                     ".tsf",
-                    ".tsf.txt"
+                    ".tsf.txt",
+                    ".tsf.md"
                 ],
                 "configuration": "./language-configuration.json"
             }
